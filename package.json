@@ -1,0 +1,42 @@
+{
+  "name": "zk-mcp-ethereum-tools",
+  "version": "1.0.0",
+  "description": "Ethereum Tools MCP server for smart contract analysis, balance checking, and blockchain data retrieval.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "prepare": "npm run build",
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ethereum",
+    "mcp",
+    "blockchain",
+    "tools",
+    "osirium"
+  ],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "main.js",
+    "tools/",
+    "mcp.json.example",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0",
+    "@moralisweb3/common-evm-utils": "^2.27.2",
+    "axios": "^1.8.3",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "moralis": "^2.27.2",
+    "web3": "^4.16.0",
+    "zod": "^3.24.2"
+  }
+}
